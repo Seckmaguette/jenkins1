@@ -1,0 +1,13 @@
+com\tounga\form\web\UserController.class
+com\tounga\form\dao\UserDaoImpl$UserMapper.class
+com\tounga\form\dao\UserDaoImpl.class
+com\tounga\form\config\SpringWebConfig.class
+com\tounga\form\validator\UserFormValidator.class
+com\tounga\form\dao\UserDao.class
+com\tounga\form\model\User.class
+com\tounga\form\service\UserService.class
+com\tounga\form\exception\GlobalExceptionHandler.class
+com\tounga\form\dao\UserDaoImpl$1.class
+com\tounga\form\config\SpringDBConfig.class
+com\tounga\form\service\UserServiceImpl.class
+com\tounga\form\validator\EmailValidator.class
