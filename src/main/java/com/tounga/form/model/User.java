@@ -4,11 +4,19 @@ import java.util.List;
 
 public class User {
 	// form:hidden - hidden value
+
 	Integer id;
 
+	private String prenom;
+
+    private String nom;
+
+    
+    private String telephone;
 	// form:input - textbox
 	String name;
 	String max;
+	String seck;
 	// form:input - textbox
 	String email;
 
