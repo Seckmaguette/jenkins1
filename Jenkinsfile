@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clean') {
             steps {
-                // Clean the project
+                // Nettoyer le projet
                 sh 'mvn -B clean'
             }
         }
@@ -20,6 +20,13 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
+            }
+        }
+        stage('SonarQube analysis') {
+            steps {
+                withSonarQubeEnv('Nom_de_votre_instance_SonarQube') {
+                    sh 'mvn sonar:sonar'
+                }
             }
         }
     }
